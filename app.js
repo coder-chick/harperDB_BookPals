@@ -11,7 +11,7 @@ app.set("views", "views");
 //use bodyParser to grab the body sent via nodejs
 app.use(express.urlencoded({ extended: false }));
 
-//This is use to statically generate files in the public and images folder using the path declared
+//This is used to statically generate files in the public and images folder using the path declared
 app.use(express.static(path.join(__dirname, "public")));
 app.use("/images", express.static(path.join(__dirname, "images")));
 
