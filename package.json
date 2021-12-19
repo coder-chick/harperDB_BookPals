@@ -1,0 +1,35 @@
+{
+  "name": "bookPals",
+  "version": "1.0.0",
+  "description": "BookPals Book Exchange Application created with Node.Js, Express and HarperDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder-chick/harperDB_BookPals"
+  },
+  "keywords": [
+    "HarperDB",
+    "NodeJS",
+    "Express"
+  ],
+  "author": "Semaa Amin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coder-chick/harperDB_BookPals/issues"
+  },
+  "homepage": "https://github.com/coder-chick/harperDB_BookPals",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "4.16.3",
+    "harperive": "^2.0.1"
+  }
+}
